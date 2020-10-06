@@ -1,0 +1,31 @@
+while True:
+    n=int(input())
+    if n==1:
+        i1=int(input())
+        i2=int(input())
+        sum=i1+i2
+        print(sum)
+    elif n==2:
+        i1=int(input())
+        i2=int(input())
+        diff=i1-i2
+        print(diff)
+    elif n==3:
+        i1=int(input())
+        i2=int(input())
+        pro=i1*i2
+        print(pro)
+    elif n==4:
+        i1=int(input())
+        i2=int(input())
+        div=i1//i2
+        print(div)
+    elif n==5:
+        i1=int(input())
+        i2=int(input())
+        rem=i1%i2
+        print(rem)
+    elif n==6:
+        exit()
+    else:
+        print("Invalid Operation")
